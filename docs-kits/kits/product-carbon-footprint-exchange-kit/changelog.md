@@ -11,6 +11,23 @@ sidebar_position: 1
 
 All notable changes to this Kit will be documented in this file.
 
+## [1.4.1] - 2026-08-25
+
+### Added
+
+- Add guidance document references for the Operation View
+- Add updated Catena-X standards references
+- Add additional reference implementation candidates for evaluation (e.g. Glassdome)
+
+### Changed
+
+- Update `declaredUnitOfMeasurement` in the PCF Data Model details to use a closed value list
+- Update PCF example payload to align with PCF Data Model v10.0.0
+- Update PCF Data Model reference link to version 10.0.0
+- Update reference implementation mapping:
+  - SiGreen → Mattermaps
+- Replace Operation View open source references with guidance-oriented documentation links
+
 ## [1.4.0] - 2025-12-19
 
 ### Added
