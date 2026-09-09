@@ -18,6 +18,10 @@ All notable changes to this Kit will be documented in this file.
 - Add guidance document references for the Operation View
 - Add updated Catena-X standards references
 - Add additional reference implementation candidates for evaluation (e.g. Glassdome)
+- Synchronous PCF data exchange via Digital Twin Registry (PCF submodel urn:samm:io.catenax.pcf:10.0.0)
+- New sequence diagrams for sync and async exchange
+- Backward compatibility section (v10/v9 data models, API v1.3.0/v1.2.0)
+
 
 ### Changed
 
@@ -27,6 +31,11 @@ All notable changes to this Kit will be documented in this file.
 - Update reference implementation mapping:
   - SiGreen → Mattermaps
 - Replace Operation View open source references with guidance-oriented documentation links
+- Architecture description updated to sync pull / async push
+- PCF Update simplified to PUT /footprintExchange/{requestId}?update=true
+- Removed inline JSON payload examples in favor of references to CX-0152/CX-0018
+- Standards list reorganized; T-Systems copyright extended to 2025–2026
+- Updated FAQs and added new 
 
 ## [1.4.0] - 2025-12-19
 
